@@ -1,0 +1,38 @@
+.noticeboard{
+  position: absolute;
+  right: 0;
+  top: 108px;
+  width: 95px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px 0 0 30px;
+  height: 394px;
+  box-shadow: -3px 3px 3px gray
+}
+
+.noticeboard ul{
+  list-style: none;
+  font-size: 157x;
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  width: 50px;
+  height: 197px;
+}
+
+.notice{
+  border-radius: 29px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.board{
+  border-radius: 0px 0 0 29px ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.noticeclose{
+  margin-bottom: 10px;
+}
