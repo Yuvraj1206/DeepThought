@@ -12,6 +12,7 @@ const Home = () => {
   return (
     <div className="home">
       <h2>Technical Project Management</h2>
+
       <Title_container
         taskTitle={jsonData.task_title}
         taskDescription={jsonData.task_description}
